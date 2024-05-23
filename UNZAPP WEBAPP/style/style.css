@@ -1,0 +1,221 @@
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    background-image: url(unzaaaa.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+.father-container{
+    position: relative;
+    width: 400px;
+    margin: auto;
+}
+
+.main-container-for-login, .main-container-for-signup{
+    position: absolute;
+}
+
+.main-container{
+    width: 400px;
+    height: 460px;
+    padding-top: 10px;
+    box-shadow: 0 0 3px #555;
+    background-color: white;
+}
+
+.welcome-text {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-container h2{
+    text-align: center;
+}
+
+.main-container p{
+    font-size: 17px;
+    text-decoration: underline;
+    font-weight: bolder;
+    color:rgb(20, 59, 81);
+    cursor: pointer;
+    width: fit-content;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px 0px 30px;
+}
+
+.forms-container{
+    position: relative;
+}
+
+.login-buttons button {
+  width: 130px;
+  padding: 10px 10px;
+  font-size: 18px;
+  background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),rgb(20, 59, 81);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-buttons button:hover{
+    background: rgb(20, 59, 81);
+}
+
+.login-container {
+    position: absolute;
+    width: 90%;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-top: 20px;
+}
+
+.login-container input {
+    outline: none;
+    width: 90%;
+    padding: 2px;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container .button-log-in {
+    width: 80%;
+    margin-top: 10px;
+    padding: 15px 20px;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),rgb(20, 59, 81);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container .button-log-in:hover{
+    background: rgb(20, 59, 81);
+}
+
+.forgot-password {
+    margin-top: 20px;
+    color:rgb(20, 59, 81);
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.main-container-for-signup{
+    padding: 20px 0px 20px 0px;
+    background: white;
+    width: 400px;
+    height: 550px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 20px;
+    display: none;
+}
+
+.main-container-for-signup p{
+    margin-top: -10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.main-container-for-signup h4{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+    color: color:rgb(20, 59, 81);
+    width: fit-content;
+    margin: auto;
+    margin-top: -10px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.sign-up-button-choose{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 0px 35px;
+    margin-top: 10px;
+}
+
+.sign-up-button-choose button{
+    padding: 4px;
+    width: 110px;
+    font-size: 18px;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),rgb(20, 59, 81);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sign-up-button-choose button:hover{
+    background: rgb(20, 59, 81);
+}
+
+.sign-up-forms{
+    position: relative;
+}
+
+.studnet-sign-up, .lecturer-sign-up{
+    width: 400px;
+    background: white;
+    position: absolute;
+    padding: 30px 0px 0px 15px;
+}
+
+.lecturer-sign-up{
+    display: none;
+}
+
+.studnet-sign-up input, .lecturer-sign-up input{
+    outline: none;
+    width: 90%;
+    padding: 2px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#radio-male, #radio-female{
+    width: 15px;
+    margin-bottom: 20px;
+    border: none;
+    height: 15px;
+}
+
+.studnet-sign-up #studnet-sign-up-button, .lecturer-sign-up #lecturer-sign-up-button {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 35px;
+    padding: 10px 20px;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),rgb(20, 59, 81);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.studnet-sign-up #studnet-sign-up-button:hover, .lecturer-sign-up #lecturer-sign-up-button:hover{
+    background: rgb(20, 59, 81);
+}
