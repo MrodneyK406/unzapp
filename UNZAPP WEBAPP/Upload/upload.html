@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student File Upload</title>
+    <style>
+        body {
+            background-image: url(Unza.jpg.jpg);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent the background from repeating */
+            background-attachment: fixed; /* Ensure the background stays fixed during scroll */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Make sure the body covers the whole viewport height */
+        }
+
+        .main-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 500px;
+            height: 500px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 80%; /* Adjusted width */
+        }
+
+        input[type="file"],
+        input[type="text"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%; /* Adjusted width */
+        }
+
+        button[type="submit"] {
+            display: block;
+            margin: 20px auto;
+            background-color: rgb(3, 3, 115);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: rgb(3, 3, 104);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>UPLOAD A FILE</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="fileInput" name="file" required>
+            <input type="text" id="programInput" name="program" placeholder="Program" required>
+            <button type="submit">Submit</button>
+        </form>
+    
+        <h1>VIEW AVAILABLE PROGRAMS</h1>
+        <button type="submit">VIEW</button>
+        <h1>AVAILABLE FILES</h1>
+        <button type="submit">VIEW</button>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
